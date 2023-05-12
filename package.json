@@ -1,8 +1,7 @@
 {
-  "name": "zustand",
-  "private": true,
+  "name": "zustand-vanilla",
   "version": "4.3.8",
-  "description": "🐻 Bear necessities for state management in React",
+  "description": "Zustand without react",
   "main": "./index.js",
   "types": "./index.d.ts",
   "typesVersions": {
@@ -113,11 +112,9 @@
     "url": "git+https://github.com/pmndrs/zustand.git"
   },
   "keywords": [
-    "react",
     "state",
     "manager",
     "management",
-    "redux",
     "store"
   ],
   "author": "Paul Henschel",
@@ -178,17 +175,5 @@
     "shx": "^0.3.4",
     "typescript": "^5.0.4",
     "vitest": "^0.31.0"
-  },
-  "peerDependencies": {
-    "immer": ">=9.0",
-    "react": ">=16.8"
-  },
-  "peerDependenciesMeta": {
-    "immer": {
-      "optional": true
-    },
-    "react": {
-      "optional": true
-    }
   }
 }
